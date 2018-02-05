@@ -28,7 +28,7 @@ class Cart {
     }
     renderCart() {
         let total = 0;
-        let cartDomSting = 
+        let cartDomString = 
             `<div class="container">
                 <div class="row">
                     <div class="col-5"><strong>Product</strong></div>
@@ -72,7 +72,7 @@ class Cart {
         if (form.checkValidity()) {
             ev.preventDefault();
             $.ajax({
-                url: "https://formspree.io/YOUR_EMAIL_HERE", 
+                url: "https://formspree.io/nazarko681@gmail.com", 
                 method: "POST",
                 data: {
                     clientName: $('#client-name').val(),
